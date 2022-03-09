@@ -1,0 +1,30 @@
+.c-todo-item {
+  display: flex;
+
+  &-label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 1;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    border: 1px solid var(--global-theme-color);
+  }
+  &-symbol {
+    width: 0.75rem;
+    height: 0.75rem;
+    stroke: var(--global-background-color);
+  }
+  &-content {
+  }
+  &-text {
+  }
+  &-category {
+  }
+}
+.c-todo-item-input {
+  &:checked + .c-todo-item-label {
+    background-color: var(--global-theme-color);
+  }
+}
