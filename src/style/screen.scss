@@ -1,0 +1,11 @@
+// @foward -> maakt scss file beschikbaar verderop in de imports
+// @use -> gebruikt file in huidige scope
+
+@import './settings/media-sizes.scss';
+
+@import './tools/mq.scss';
+
+@import './generic/reset';
+
+@import './elements/root.scss';
+@import './elements/page.scss';
